@@ -12,7 +12,13 @@
 		<description>
 			<p>You have resistance to cold damage while you hold this staff.</p>
 			<p class="indent">The staff has 5 charges. While holding it, you gain a charge per spell level +1 when a cold spell is casted within 60ft until 5 or more chargers are gathered</p>
-			<p class="indent">When all 5 charges are filled the next spell used by the user will be agmented roll d6 - X (X = numbers of chargers above 5) <em>1: all creatures within 10 ft take (1+X)d6 cold damage</em><em>2:gain the side effects of both ray of frost and frostbite for 1 turn</em><em>3:Gain temporary hit points = (1+X)"*"proficiency level</em><em>4:Grant another creature within 60ft resistence to cold damage for 1+X turns</em><em>5:Gain a use of chromatic orb : cold as a bonus action for this turn only</em><em>6:Refresh 1 spell slot of level= 1+X or lower</em></p>
+			<p class="indent">When all 5 charges are filled the next spell used by the user will be agmented roll d6 - X (X = numbers of chargers above 5)</p>
+			<p class="indent"><em>1: all creatures within 10 ft take (1+X)d6 cold damage</em></p>
+			<p class="indent"><em>2:gain the side effects of both ray of frost and frostbite for 1 turn</em></p>
+			<p class="indent"><em>3:Gain temporary hit points = (1+X)"*"proficiency level</em></p>
+			<p class="indent"><em>4:Grant another creature within 60ft resistence to cold damage for 1+X turns</em></p>
+			<p class="indent"><em>5:Gain a use of chromatic orb : cold as a bonus action for this turn only</em></p>
+			<p class="indent"><em>6:Refresh 1 spell slot of level= 1+X or lower</em></p>
 			<p>Staff can only be used proficiency times per long rest</p> 
 		</description>
 		<setters>
