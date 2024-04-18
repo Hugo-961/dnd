@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Game Master</author>
 		<update version="1.0">
-			<file name="items-rings.xml" url="https://raw.githubusercontent.com/Hugo-961/dnd/blob/main/items-rings.xml" />
+			<file name="items-rings-custom.xml" url="https://raw.githubusercontent.com/Hugo-961/dnd/blob/main/items-rings-custom.xml" />
 		</update>
 	</info>
 	<element name="Ring of Minor Abjuration" type="Magic Item" source="Kryn Treasury" id="">
