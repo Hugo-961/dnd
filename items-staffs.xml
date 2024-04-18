@@ -8,7 +8,7 @@
 			<file name="items-staffs.xml"/>
 		</update>
 	</info>
-	<element name="Staff of Cold" type="Magic Item" source="Sarifal Greatest Shop" id="">
+	<element name="Staff of Cold" type="Magic Item" source="Sarifal Greatest Shop" id="ID_MAGIC_ITEM_STAFF_OF_COLD">
 		<description>
 			<p>You have resistance to cold damage while you hold this staff.</p>
 			<p class="indent">The staff has 5 charges. While holding it, you gain a charge per spell level +1 when a cold spell is casted within 60ft until 5 or more chargers are gathered</p>
