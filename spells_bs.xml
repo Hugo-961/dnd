@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Spells</name>
+		<description>The Spells from some bullshit</description>
+		<author >Fizban's Treasury of Dragons</author>
+		<update version="0.0.1">
+			<file name="spells_bs.xml"/>
+		</update>
+	</info>
+
+	<element name="Antagonize" type="Spell" source="BS" id="ID_BS_FTOD_SPELL_ANTOGONIZE">
+		<supports>Bard, Warlock, Sorcerer, Wizard</supports>
+		<description>
+			<p>You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, the target takes 4d4 psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can’t make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional 1d6 fire damage for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="level">3</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="duration">Instantaneous</set>
+			<set name="isConcentration">false</set>
+		</setters>
+	</element>
+</elements>
