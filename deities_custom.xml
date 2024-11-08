@@ -3,7 +3,6 @@
 	<info>
 		<name>Deities</name>
 		<description>Deities From Custom.</description>
-		<update version="1">
 			<file name="deities_custom.xml" url="https://github.com/Hugo-961/dnd/blob/f027dc12a2cd33b2d7469ae4abfa85042ebd7351/deities_custom.xml" />
 		</update>
 	</info>
