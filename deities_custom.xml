@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deities</name>
+		<description>Deities From Custom.</description>
+		<update version="1">
+			<file name="deities_custom.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/deities.xml" />
+		</update>
+	</info>
+	<element name="Pai'Vàh" type="Deity" source="Custom" id="ID_CUSTOM_DEITY_PAI'VÀH">
+		<description>
+			<p class="flavor">God of crafting and Sacrifice</p>
+		</description>
+		<setters>
+			<set name="setting">Custom</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Abyss, Death</set>
+			<set name="symbol">Skull and Hammer</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>God of crafting and Sacrifice</description>
+		</sheet>
+	</element>
+</element>
