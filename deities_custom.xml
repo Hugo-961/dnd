@@ -4,6 +4,9 @@
 		<name>Deities</name>
 		<description>Deities From Custom.</description>
 			<file name="deities_custom.xml" url="https://github.com/Hugo-961/dnd/blob/f027dc12a2cd33b2d7469ae4abfa85042ebd7351/deities_custom.xml" />
+	<update version="1.0">
+			<file name="deities_custom.xml" url="https://github.com/Hugo-961/dnd/blob/b48d78247c7a358964bbd8d02033904a1de53a61/deities_custom.xml" />
+		</update>
 	</info>
 	<element name="Pai'Vàh" type="Deity" source="Custom" id="ID_CUSTOM_DEITY_PAI'VÀH">
 		<description>
