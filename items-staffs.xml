@@ -5,10 +5,10 @@
 		<description></description>
 		<author>Game Master</author>
 		<update version="1.0">
-			<file name="items-staffs.xml"/>
+			<file name="items-staffs.xml" url="https://raw.githubusercontent.com/Hugo-961/dnd/blob/main/items-staffs.xml" />
 		</update>
 	</info>
-	<element name="Staff of Cold" type="Magic Item" source="Sarifal Greatest Shop" id="ID_MAGIC_ITEM_STAFF_OF_COLD">
+	<element name="Staff of cold" type="Magic Item" source="Sarifal Greatest Shop" id="ID_SGS_Staff_of_cold">
 		<description>
 			<p>You have resistance to cold damage while you hold this staff.</p>
 			<p class="indent">The staff has 5 charges. While holding it, you gain a charge per spell level +1 when a cold spell is casted within 60ft until 5 or more chargers are gathered</p>
@@ -19,7 +19,7 @@
 			<p class="indent"><em>4:Grant another creature within 60ft resistence to cold damage for 1+X turns</em></p>
 			<p class="indent"><em>5:Gain a use of chromatic orb : cold as a bonus action for this turn only</em></p>
 			<p class="indent"><em>6:Refresh 1 spell slot of level= 1+X or lower</em></p>
-			<p>Staff can only be used proficiency times per long rest</p> 
+			<p>Staff can only be used proficiency times per long rest</p>
 		</description>
 		<setters>
 			<set name="keywords">druid, sorcerer, warlock, wizard</set>
@@ -32,6 +32,23 @@
 			<set name="attunement" addition="by a druid, sorcerer, warlock, or wizard, that knows a spell that deals cold damage">true</set>
 			<set name="rarity">Very Rare</set>
 			<set name="charges">10</set>
+		</setters>
+	</element>
+	<element name="Axe of the Phoenix" type="Magic Item" source="Sarifal Greatest Shop" id="ID_SGS_AXE_OF_THE_PHOENIX">
+		<description>
+			<p class="indent"><strong>Phoenix Flame:</strong><em>Once per turn when you hit a creature with this weapon, you can choose to deal an additional 2d6 fire damage.</em></p>
+			<p class="indent"><strong>Rebirth from Ashes:</strong><em>If you are reduced to 0 hit points while attuned to this weapon, you can choose to rise again with 50 hit points. 
+			This property can only be used once, and it recharges after 7 days.</em></p>
+		</description>
+		<setters>
+			<set name="keywords">Greataxe, fighter, paladin</set>
+			<set name="category">magic weapon</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="4">30lb.</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type" addition="Greataxe">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
 </elements>
