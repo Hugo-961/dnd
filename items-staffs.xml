@@ -34,7 +34,7 @@
 			<set name="charges">10</set>
 		</setters>
 	</element>
-	<element name="Axe of the Phoenix" type="Weapon" source="Sarifal Greatest Shop" id="ID_SGS_AXE_OF_THE_PHOENIX">
+	<element name="Axe of the Phoenix" type="Magic Item" source="Sarifal Greatest Shop" id="ID_SGS_AXE_OF_THE_PHOENIX">
 		<description>
 			<p class="indent"><strong>Phoenix Flame:</strong><em>Once per turn when you hit a creature with this weapon, you can choose to deal an additional 2d6 fire damage.</em></p>
 			<p class="indent"><strong>Rebirth from Ashes:</strong><em>If you are reduced to 0 hit points while attuned to this weapon, you can choose to rise again with 50 hit points. 
