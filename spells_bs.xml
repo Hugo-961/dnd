@@ -44,4 +44,5 @@
 				<set name="duration">Up to 1 hour</set>
 				<set name="isConcentration">true</set>
 			</setters>
+	</element>
 </elements>
