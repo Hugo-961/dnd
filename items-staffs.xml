@@ -41,7 +41,7 @@
 			This property can only be used once, and it recharges after 7 days.</em></p>
 		</description>
 		<setters>
-			<set name="category">Magic weapons</set>
+			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">500</set>
 			<set name="weight" lb="4">30lb.</set>
 			<set name="type" addition="greataxe">Weapon</set>
